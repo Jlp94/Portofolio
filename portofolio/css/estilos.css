@@ -20,6 +20,9 @@ h3{
 cite{
     font-weight: 300;
 }
+i{
+    font-size: 24px;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
@@ -29,10 +32,10 @@ cite{
 
 }
 #inicio{
-    background-image: url("../img/Inicio.png");
-    min-height: 280px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../img/Inicio.png"); /*Para insertar la imagen en CSS*/
+    min-height: 280px; /*Para que se ajuste de altura al padding*/
+    background-repeat: no-repeat; /* Para que no se repita*/
+    background-size: cover; /*Para que se adapate al bloque*/
 }
 #experiencia{
     background-color: white;
