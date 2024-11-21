@@ -23,12 +23,22 @@ cite{
 i{
     font-size: 24px;
 }
+li{
+    float: left;
+    text-align: center;
+    /*width: 30px; /*Si usas esto el text-align afecta a la colocación*/ 
+    margin-right: 5px;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
 }
 .seccion{
     padding: 10px 100px 10px 100px;
+}
+#redessociales{
+    margin-top: 20px;
+    list-style: none; /*Eliminar puntos de lista o numeracón*/
 
 }
 #inicio{
